@@ -1,4 +1,4 @@
-# CROPSIMPLIFY 🌿
+# CROPIFY 🌿
 #### A simple ML and DL based website which recommends the best crop to grow, fertilizers to use and the diseases caught by your crops.
 
 [LIVE](https://harvestify.herokuapp.com/)
@@ -74,8 +74,8 @@ Note that, for now it only supports following crops
 - It is highly recommended to clone the deploy branch for running the project locally (the further steps apply only if you have the deploy branch cloned)
 - Once the project is cloned, open anaconda prompt in the directory where the project was cloned and paste the following block
   ```
-  conda create -n cropsimplify python=3.6.12
-  conda activate cropsimplify
+  conda create -n cropify python=3.6.12
+  conda activate cropify
   pip install -r requirements.txt
   ```
 - And finally run the project with
