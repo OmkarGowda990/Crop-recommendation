@@ -6,7 +6,7 @@ import pandas as pd
 from utils.disease import disease_dic
 from utils.fertilizer import fertilizer_dic
 import requests
-import config
+import config_weather
 import pickle
 import io
 import torch
@@ -83,7 +83,7 @@ def weather_fetch(city_name):
     :params: city_name
     :return: temperature, humidity
     """
-    api_key = config.weather_api_key
+    api_key = config_weather.weather_api_key
     base_url = "http://api.openweathermap.org/data/2.5/weather?"
 
     complete_url = base_url + "appid=" + api_key + "&q=" + city_name
