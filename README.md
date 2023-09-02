@@ -1,7 +1,7 @@
 # CROPIFY 🌿
 #### A simple ML and DL based website which recommends the best crop to grow, fertilizers to use and the diseases caught by your crops.
 
-[LIVE]()
+[LIVE](https://crop-recommendation-zweq.onrender.com/)
 
 ## MOTIVATION 💪
  - Farming plays a significant role in a country's economic growth. Countries like India heavily rely on agriculture, with a majority of the population depending on it for their livelihood. To enhance agricultural practices and yield, modern technologies like Machine Learning and Deep Learning are being integrated into the sector.
